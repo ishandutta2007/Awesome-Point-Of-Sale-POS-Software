@@ -2,7 +2,15 @@
   <img src="./assets/pos-banner.svg" alt="Awesome Point of Sale (POS) Software" width="100%" />
 </p>
 
-# 🛒 Awesome Point of Sale (POS) Software [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+# 🛒 Awesome Point of Sale (POS) Software
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 > 🌟 A curated, SEO-optimized directory of top **Point of Sale (POS)** platforms, cloud-hosted SaaS billing engines, self-hosted open-source cashier systems, and retail inventory management solutions for shops, cafes, supermarkets, and restaurants.
 
@@ -16,6 +24,8 @@
 - [📊 Comparison at a Glance](#-comparison-at-a-glance)
 - [🛠 Selection & Architecture Guide](#-selection--architecture-guide)
 - [🤝 Contributing](#-contributing)
+- [⭐ Star History](#-star-history)
+- [💖 Support](#-support)
 - [📄 License](#-license)
 
 ---
@@ -114,6 +124,23 @@ Contributions, software additions, and corrections are warmly welcomed!
 2. 🌿 Create your feature branch (`git checkout -b feature/add-pos-tool`).
 3. ✍️ Add the POS tool with verified GitHub stars, technology stack, license, and brief description.
 4. 🚀 Open a Pull Request detailing the software's unique merits.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Point-Of-Sale-POS-Software&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Point-Of-Sale-POS-Software&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+A massive **thank you** for checking out this repository! If this curated collection helped you discover the right Point of Sale tool, streamline checkout architecture, or save development hours, please consider showing your support:
+
+- ⭐ **Star this repository** to help others discover it across GitHub.
+- 🍴 **Fork and contribute** new open-source POS engines, plugins, and SaaS insights.
+- 📢 **Share this list** with fellow founders, engineers, and retail/hospitality teams.
+- ☕ **Buy me a coffee / become a sponsor**: Support ongoing open-source curation and maintenance at the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
 
