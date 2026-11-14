@@ -1,139 +1,128 @@
-# Awesome-Point-Of-Sale-POS-Software
+<p align="center">
+  <img src="./assets/pos-banner.svg" alt="Awesome Point of Sale (POS) Software" width="100%" />
+</p>
 
-# Awesome Point of Sale (POS) Software
+# 🛒 Awesome Point of Sale (POS) Software [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-> A curated list of top Point of Sale (POS) platforms — both SaaS/Hosted commercial solutions and open-source alternatives for retail, restaurant, and service businesses.
-> 🌟 Star this repo if you find it useful! 🌟
-
----
-
-## 📋 Table of Contents
-
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Square POS](#square-pos)
-  - [Toast POS](#toast-pos)
-  - [Lightspeed POS](#lightspeed-pos)
-  - [Shopify POS](#shopify-pos)
-  - [Clover](#clover)
-- [Open-Source Software](#-open-source-software)
-  - [OSPOS (Open Source Point of Sale)](#ospos-open-source-point-of-sale)
-  - [Odoo POS](#odoo-pos)
-  - [ERPNext POS (POS Awesome)](#erpnext-pos-pos-awesome)
-  - [uniCenta oPOS](#unicenta-opos)
-  - [Floreant POS](#floreant-pos)
-  - [NexoPOS](#nexopos)
-  - [FloCafe](#flocafe)
-  - [Agora POS](#agora-pos)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+> 🌟 A curated, SEO-optimized directory of top **Point of Sale (POS)** platforms, cloud-hosted SaaS billing engines, self-hosted open-source cashier systems, and retail inventory management solutions for shops, cafes, supermarkets, and restaurants.
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 📑 Table of Contents
 
-Commercial, cloud-hosted Point of Sale platforms. These are not open-source but are included as reference points for feature comparison.
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+- [🟩 Open-Source Software](#-open-source-software)
+- [📊 Comparison at a Glance](#-comparison-at-a-glance)
+- [🛠 Selection & Architecture Guide](#-selection--architecture-guide)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
-### Square POS
-**Type:** Free POS with integrated payments  
-Square offers a free POS app with integrated payment processing, making it accessible for small businesses. It supports retail and restaurant workflows with inventory tracking, reporting, and a broad ecosystem of hardware and add-ons. Pricing is transaction-based with optional paid tiers for advanced features.
+---
 
-### Toast POS
-**Type:** Restaurant-specific POS with deep operational features  
-Toast is built specifically for food service, with table management, online ordering, kitchen display, delivery, and payroll/loyalty integrations. It is the most widely adopted restaurant POS in North America, though its monthly fees and hardware lock-in are frequent criticisms.
+## 🌐 Sector Overview & Market Dynamics
 
-### Lightspeed POS
-**Type:** Retail and restaurant POS with inventory depth  
-Lightspeed provides POS for retail and hospitality with advanced inventory management, multi-location support, and reporting. Pricing starts around $109/month, with multi-location plans scaling higher. User reviews report frustration with payment processing lock-in terms.
+The global **Point of Sale (POS) software market** was valued at approximately **$12.5 billion in 2024** and is projected to expand at a compound annual growth rate (**CAGR) of 10.8% to surpass $22–$25 billion by 2029–2030**, driven by contactless digital payments, omnichannel retail unification, and cloud-native mobile POS (mPOS) terminals.
 
-### Shopify POS
-**Type:** Omnichannel POS with unified online/offline inventory  
-Shopify POS integrates in-store and online sales with a centralized back office supporting 1,000+ locations. Pricing starts at SGD 39/month (Basic) with an additional SGD 129/month per location for POS Pro. Best for retailers wanting a single system for e-commerce and physical stores.
+The market exhibits **moderate fragmentation across industry verticals with concentrated dominance at the mega-cap infrastructure layer**:
+- **Retail & Omnichannel Commerce** is anchored by cloud giants like **Shopify** and **Block (Square)**, which capture substantial transaction volumes through bundled merchant acquiring and app stores.
+- **Restaurant & Hospitality** demonstrates regional consolidation led by specialized players like **Toast**, while legacy hardware-heavy systems face accelerating migration toward hybrid-cloud solutions.
+- Concurrently, a vibrant and resilient **open-source ecosystem** (powered by ERP-integrated suites such as **Odoo** and **ERPNext**, along with dedicated standalone stacks like **Open Source Point of Sale**) serves businesses prioritizing data sovereignty, local offline survivability, zero recurring SaaS seat licensing fees, and custom fiscal printer integration.
 
-### Clover
-**Type:** POS with integrated payments and app marketplace  
-Clover provides POS hardware and software with integrated payments, an app marketplace, and business management tools. It is positioned for small to mid-sized businesses wanting an all-in-one payment and POS solution.
+---
+
+## 🟦 SaaS / Hosted Commercial Platforms
+
+Leading enterprise and cloud-hosted commercial Point of Sale platforms, sorted in descending order by **company market valuation / annual revenue**:
+
+| 🏢 Platform | 💰 Valuation / Revenue | 🏷️ Starting Tier Pricing | 🎁 Free Tier Limit / Free Trial | 🎯 Key Strengths | 🌐 Deployment Model |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[Shopify POS](https://www.shopify.com/pos)** | **$120B+ Market Cap** (~$8.9B+ ARR) | **$39 / month** (Shopify Basic billed monthly; $29/mo annually + 2.9% + 30¢ online / 2.7% card-present) | **3-day free trial** + $1/month promo for first 3 months; no permanent free tier | Omnichannel unified e-commerce & retail inventory across 1,000+ locations | Cloud SaaS (iOS / Android) |
+| **[Clover](https://www.clover.com/)** | **$45B+ Parent Cap** (Fiserv, ~$20B ARR) | **$14.95 / month** (Payments Plus SaaS plan + 2.3% + 10¢ card transactions; hardware from $799) | **30-day money-back guarantee** / customized terminal demo trial; no permanent free tier | Deep integrated payment processing with proprietary touch hardware and robust third-party app ecosystem | Cloud SaaS + Dedicated Hardware |
+| **[Square POS](https://squareup.com/)** | **$42B+ Market Cap** (Block, Inc., ~$22B ARR) | **$0 / month** (Square Free base plan; standard processing at 2.6% + 10¢ per tapped/dipped transaction) | **Permanent Free Tier** (unlimited transactions, items, locations; pay only transaction fees; Plus plans offer 30-day free trial) | Zero upfront software cost, instant onboarding, versatile mobile hardware, and comprehensive merchant services | Cloud SaaS (iOS / Android) |
+| **[Toast POS](https://pos.toasttab.com/)** | **$18B+ Market Cap** (~$4.7B+ ARR) | **$0 / month** (Quick Start Starter Kit via pay-as-you-go processing) or **$69 / month** standard | **Permanent Free Starter Plan** (up to 2 terminals with pay-as-you-go transaction percentage); 30-day trial for add-on modules | Built-in restaurant table management, kitchen display systems (KDS), online ordering, and delivery dispatch | Cloud SaaS (Android Hardware) |
+| **[Lightspeed POS](https://www.lightspeedhq.com/)** | **$2.5B+ Market Cap** (~$900M+ ARR) | **$89 / month** (Lightspeed Retail Basic billed annually; $109/month billed monthly) | **14-day free trial** with full feature access and product catalog setup; no permanent free tier | Advanced matrix inventory management, multi-store purchase ordering, and high-end boutique retail analytics | Cloud SaaS (iOS / Web) |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Point of Sale tools. The open-source ecosystem spans **standalone web POS**, **ERP-integrated POS modules**, and **restaurant-specific systems**.
+Self-hosted, developer-friendly, and community-maintained Point of Sale software, sorted in descending order by **GitHub Star Count**:
 
-### OSPOS (Open Source Point of Sale)
-**Stack:** PHP / CodeIgniter 4 / MySQL | **License:** MIT (with footer visibility requirement)  
-OSPOS is a web-based POS application for retailers, with sales, inventory, receipts, multiuser permissions, and restaurant tables [citation:8][citation:14]. It runs on PHP with MySQL or MariaDB, and can deploy on a $5-10/month VPS with 1 GB RAM [citation:14]. **Important licensing caveat:** The project describes its license as MIT with an added requirement to keep its footer visible and unchanged—read these terms before rebranding [citation:8]. **Limitations:** Single-store only (no multi-location), no built-in e-commerce integration, and no offline mode [citation:14].  
-**Best for:** Small shops, food trucks, market stalls, and pop-up stores wanting a lightweight, standalone POS that deploys quickly.
-
-### Odoo POS
-**Stack:** Python / PostgreSQL | **License:** LGPL-3.0 (Community) / Enterprise  
-Odoo POS is a module within the broader Odoo ERP suite, running in a browser on PCs, tablets, and touch terminals for both retail and restaurants [citation:11]. Its key advantage is **deep ERP integration**—inventory, accounting, and sales share a single database, with real-time stock updates [citation:14]. The **IoT Box** (Raspberry Pi-based) connects barcode scanners, receipt printers, cash drawers, and payment terminals, with local caching for offline resilience [citation:14]. **Limitations:** Resource-heavy (2-4 GB RAM minimum), and full hardware support generally requires the IoT Box, an added hardware cost [citation:11][citation:14].  
-**Best for:** Businesses already using or planning to adopt Odoo for accounting and inventory, wanting POS tightly integrated with their ERP.
-
-### ERPNext POS (POS Awesome)
-**Stack:** Python / Frappe / MariaDB / Vue.js | **License:** GPL-3.0 (ERPNext)  
-ERPNext POS is part of the ERPNext open-source ERP platform, with a dedicated **POS Awesome** frontend built in Vue.js [citation:6]. Key features include **offline mode** for creating invoices and customers with stock validation and automatic sync on reconnection, multi-currency support, loyalty points, batch/serial numbering, and credit sales [citation:6]. Like Odoo, it benefits from deep ERP integration with accounting and inventory. **Limitations:** Heavy resource requirements (4+ GB RAM), complex setup (not a "docker compose up and go" experience), and POS-specific documentation is less mature than Odoo's [citation:14].  
-**Best for:** Organizations already using ERPNext for manufacturing, distribution, or multi-entity operations wanting native POS integration.
-
-### uniCenta oPOS
-**Stack:** Java | **License:** GPL-3.0 (Community)  
-uniCenta oPOS is a mature standalone POS for retail, hospitality, and service businesses, running since 2010 as a Java desktop client [citation:11]. It has a **sixteen-year track record** and solid hardware/peripheral support for traditional setups. The community version's full source is free under GPLv3, though paid support customers receive priority support and upgrade help [citation:11]. **Trade-off:** The Java desktop client feels dated next to modern web POS [citation:11].  
-**Best for:** Independent shops wanting a mature, genuinely free-to-run standalone system with proven hardware compatibility.
-
-### Floreant POS
-**Stack:** Java | **License:** MRPL 1.2 (modified MPL)  
-Floreant is a restaurant and hospitality POS built for order entry, kitchen display, and table routing, capable of running fully offline [citation:11]. **Important maintenance caveat:** The project's activity signals are mixed—its main repository showed low activity and no recent published releases, while the vendor describes it as actively maintained. Verify current release status directly before committing [citation:11].  
-**Best for:** Restaurants wanting offline-first table and kitchen workflows, only after confirming the project is currently maintained.
-
-### NexoPOS
-**Stack:** PHP / Laravel / TailwindCSS / Vue.js | **License:** Open Source (core) / Commercial modules  
-NexoPOS is a modern web-based POS system with product management, POS sales, inventory, accounting, and reporting. Restaurant-specific features (tables, waiter/chef workflows, kitchen screens) are available via a **paid Gastro module** sold separately. **Trade-off:** The free core lacks restaurant-specific functionality; you must purchase the module for full hospitality features.  
-**Best for:** Retail businesses wanting a modern Laravel-based POS, or restaurants willing to purchase the Gastro module.
-
-### FloCafe
-**Stack:** Electron / SQLite | **License:** MIT  
-FloCafe is an offline-first restaurant POS with a focus on data sovereignty, supporting **131 country profiles** and 109 currencies [citation:2]. Features include multi-counter ordering (separate capture, cashier payment, or combined terminals), kitchen display (KDS), receipt printing, customer loyalty, and automated backups [citation:2]. Core POS operation works entirely offline. **Note:** The project is newer and Posnic's review did not install it—verify maturity before production use [citation:2].  
-**Best for:** Restaurants in diverse geographic markets needing offline-first operation and broad language/currency support.
-
-### Agora POS
-**Stack:** Flutter / Drift (SQLite) | **License:** Open Source  
-Agora POS is a free, open-source POS designed specifically for **Italian food festivals (Sagre) and community events** [citation:9]. Features include fast touch-optimized order entry, product categories, modifier groups, real-time stock tracking, employee PIN login with roles, ESC/POS thermal printing, and **offline-first operation** with local SQLite [citation:9]. Multi-platform support for Android, iOS, and web.  
-**Best for:** Food festivals, fairs, and community events needing a specialized, offline-capable POS.
+| 💻 Repository | ⭐ GitHub Stars | 🧰 Technology Stack | 📜 License | 📝 Summary & Key Features |
+| :--- | :---: | :--- | :--- | :--- |
+| **[Odoo POS](https://github.com/odoo/odoo)** | [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | Python / JavaScript / PostgreSQL | LGPL-3.0 | World-class modular POS integrated with comprehensive enterprise ERP, real-time inventory, accounting, and IoT Box hardware connectivity. |
+| **[ERPNext POS](https://github.com/frappe/erpnext)** | [![GitHub stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | Python / Frappe / MariaDB / Vue.js | GPL-3.0 | Full-featured ERP-integrated POS module featuring customer loyalty programs, multi-currency ledger, serial/batch tracking, and credit sales. |
+| **[BTCPay Server POS](https://github.com/btcpayserver/btcpayserver)** | [![GitHub stars](https://img.shields.io/github/stars/btcpayserver/btcpayserver?style=social&color=white)](https://github.com/btcpayserver/btcpayserver/stargazers) | C# / ASP.NET Core / PostgreSQL | MIT | Self-hosted, censorship-resistant cryptocurrency and Lightning Network Point of Sale application with zero middleman fees and automated invoicing. |
+| **[Open Source Point of Sale (OSPOS)](https://github.com/opensourcepos/opensourcepos)** | [![GitHub stars](https://img.shields.io/github/stars/opensourcepos/opensourcepos?style=social&color=white)](https://github.com/opensourcepos/opensourcepos/stargazers) | PHP / CodeIgniter / MySQL / Bootstrap | MIT | Lightweight, community-favorite web-based retail POS with stock inventory tracking, barcode generation, receipts, and multi-employee role access. |
+| **[NexoPOS](https://github.com/Blair2004/NexoPOS)** | [![GitHub stars](https://img.shields.io/github/stars/Blair2004/NexoPOS?style=social&color=white)](https://github.com/Blair2004/NexoPOS/stargazers) | PHP / Laravel / Vue.js / Tailwind CSS | Open Source | Modern responsive web POS delivering granular inventory tracking, multi-register support, accounting reports, and restaurant kitchen extension modules. |
+| **[Store-POS](https://github.com/tngoman/Store-POS)** | [![GitHub stars](https://img.shields.io/github/stars/tngoman/Store-POS?style=social&color=white)](https://github.com/tngoman/Store-POS/stargazers) | Electron / React / Express / SQLite | MIT | Modern cross-platform desktop POS client with fast touch cash register till, local LAN multi-terminal sync, visual photo catalog, and thermal receipt printing. |
+| **[Lakasir](https://github.com/lakasir/lakasir)** | [![GitHub stars](https://img.shields.io/github/stars/lakasir/lakasir?style=social&color=white)](https://github.com/lakasir/lakasir/stargazers) | PHP / Laravel / Livewire / MySQL | MIT | Intuitive, straightforward cashier and point-of-sale management software tailored for small retail stores, kiosks, and food stalls. |
+| **[TailPOS](https://github.com/bailabs/tailpos)** | [![GitHub stars](https://img.shields.io/github/stars/bailabs/tailpos?style=social&color=white)](https://github.com/bailabs/tailpos/stargazers) | Flutter / Dart / SQLite / ERPNext API | GPL-3.0 | Modern offline-first mobile Point of Sale app designed for tablets and smartphones with two-way ERPNext cloud synchronization. |
+| **[POS Awesome](https://github.com/ucraft-com/POS-Awesome)** | [![GitHub stars](https://img.shields.io/github/stars/ucraft-com/POS-Awesome?style=social&color=white)](https://github.com/ucraft-com/POS-Awesome/stargazers) | Vue.js / Vuetify / Python / Frappe | GPL-3.0 | Sleek and highly responsive alternative POS frontend for ERPNext supporting offline order creation, cash drawer management, and barcode printing. |
+| **[Laravel-POS](https://github.com/angkosal/laravel-pos)** | [![GitHub stars](https://img.shields.io/github/stars/angkosal/laravel-pos?style=social&color=white)](https://github.com/angkosal/laravel-pos/stargazers) | PHP / Laravel / Bootstrap / MySQL | MIT | Clean web-based point-of-sale and retail inventory application with order checkout, customer invoicing, supplier management, and sales summaries. |
+| **[FloCafe](https://github.com/FreeOpenSourcePOS/FloCafe)** | [![GitHub stars](https://img.shields.io/github/stars/FreeOpenSourcePOS/FloCafe?style=social&color=white)](https://github.com/FreeOpenSourcePOS/FloCafe/stargazers) | Electron / SQLite / Node.js | MIT | Offline-first restaurant POS engineered for data sovereignty, featuring 131 country profiles, 109 currencies, multi-counter ordering, and KDS screens. |
+| **[uniCenta oPOS](https://github.com/herbiehp/unicenta)** | [![GitHub stars](https://img.shields.io/github/stars/herbiehp/unicenta?style=social&color=white)](https://github.com/herbiehp/unicenta/stargazers) | Java / Swing / MySQL / PostgreSQL | GPL-3.0 | Battle-tested desktop POS with a 16-year legacy across hospitality and retail, renowned for extensive serial peripheral and cash drawer compatibility. |
+| **[Floreant POS](https://github.com/floreantpos/floreantpos)** | [![GitHub stars](https://img.shields.io/github/stars/floreantpos/floreantpos?style=social&color=white)](https://github.com/floreantpos/floreantpos/stargazers) | Java / Swing / Embedded DB | MRPL-1.2 | Dedicated offline restaurant POS terminal featuring dining room table layouts, kitchen order ticket (KOT) routing, bar tabs, and tip calculations. |
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Stack | Offline Mode | Multi-Location | ERP Integration | Self-Hosted | Best For |
-|----------|---------|-------|--------------|----------------|-----------------|-------------|----------|
-| **Square** | Proprietary | Cloud | (Limited) | ✅ | ❌ | ❌ | Small business all-in-one |
-| **Toast** | Proprietary | Cloud | ❌ | ✅ | ❌ | ❌ | Restaurant operations |
-| **OSPOS** | MIT (footer) | PHP/MySQL | ❌ | ❌ | ❌ | ✅ | Lightweight single-store |
-| **Odoo POS** | LGPL-3.0 | Python/Postgres | ✅ (IoT Box) | ✅ | ✅ Deep | ✅ | Odoo ERP users |
-| **ERPNext POS** | GPL-3.0 | Python/Frappe | ✅ | ✅ | ✅ Deep | ✅ | ERPNext users |
-| **uniCenta** | GPL-3.0 | Java | (Desktop) | (Check) | ❌ | ✅ | Mature standalone retail |
-| **Floreant** | MRPL 1.2 | Java | ✅ | (Check) | ❌ | ✅ | Restaurant (verify maintenance) |
-| **FloCafe** | MIT | Electron/SQLite | ✅ | (Multi-counter) | ❌ | ✅ | Global offline restaurant |
-| **Agora POS** | Open Source | Flutter/SQLite | ✅ | ❌ | ❌ | ✅ | Italian food festivals |
+| 📦 Software Platform | ⚖️ Licensing | 🧱 Architecture | 📶 Offline Mode | 🏬 Multi-Location | 🔗 ERP Integration | 🖥️ Self-Hostable | 🎯 Best Fit |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
+| **Shopify POS** | Commercial SaaS | Cloud | ⚠️ Limited | ✅ | ⚠️ Via App | ❌ | Omnichannel e-commerce & physical store chains |
+| **Clover** | Commercial SaaS | Cloud + Proprietary HW | ⚠️ Limited | ✅ | ⚠️ Via App | ❌ | Turn-key small business card payment terminals |
+| **Square POS** | Commercial SaaS | Cloud Mobile | ⚠️ Offline Card Cache | ✅ | ⚠️ Via App | ❌ | Zero-overhead startup retail & mobile merchants |
+| **Toast POS** | Commercial SaaS | Cloud Android | ⚠️ Offline Mode | ✅ | ⚠️ Via API | ❌ | High-volume restaurants, cafes, bars & food halls |
+| **Lightspeed POS** | Commercial SaaS | Cloud | ⚠️ Limited | ✅ | ⚠️ Via API | ❌ | Complex retail inventory, apparel & boutique shops |
+| **Odoo POS** | LGPL-3.0 / Commercial | Web + IoT Box | ✅ IoT Cached | ✅ | ✅ Native Deep | ✅ | Companies operating unified ERP, CRM & sales |
+| **ERPNext POS** | GPL-3.0 | Web / Frappe | ✅ Sync Mode | ✅ | ✅ Native Deep | ✅ | Manufacturing & distribution firms running ERPNext |
+| **BTCPay Server** | MIT | Web / Docker | ❌ Web-driven | ✅ | ⚠️ Webhooks | ✅ | Crypto-forward retailers demanding zero merchant fee |
+| **OSPOS** | MIT | Web (PHP/MySQL) | ❌ | ❌ | ❌ | ✅ | Small mom-and-pop shops needing simple till setup |
+| **Store-POS** | MIT | Electron Desktop | ✅ LAN Offline | ⚠️ LAN only | ❌ | ✅ | Fast desktop till for convenience stores & boutiques |
+| **NexoPOS** | Open Source | Web (Laravel) | ⚠️ Web Cache | ✅ Multi-till | ❌ | ✅ | Tech-savvy businesses desiring customizable Laravel POS |
+| **FloCafe** | MIT | Electron Desktop | ✅ Fully Offline | ⚠️ Multi-counter | ❌ | ✅ | Global restaurants requiring data sovereignty |
+| **uniCenta oPOS** | GPL-3.0 | Java Desktop | ✅ Local DB | ⚠️ Manual Sync | ❌ | ✅ | Legacy standalone hardware with COM/serial peripherals |
+| **Floreant POS** | MRPL-1.2 | Java Desktop | ✅ Local DB | ❌ | ❌ | ✅ | Dine-in restaurants seeking offline table & kitchen routing |
+
+---
+
+## 🛠 Selection & Architecture Guide
+
+When choosing between cloud-hosted SaaS and open-source POS systems, consider these trade-offs:
+
+1. **💳 Integrated Payments vs. Merchant Independence:**
+   - Commercial SaaS platforms (Square, Toast, Clover) bundle payment processing directly into their pricing, which simplifies setup but can lead to vendor lock-in with non-negotiable interchange markups.
+   - Self-hosted open-source systems allow you to negotiate interchange-plus rates with any local acquirer or accept Bitcoin/Lightning directly (e.g., via BTCPay Server) without recurring SaaS seat fees.
+
+2. **📶 Offline Survivability & Network Latency:**
+   - In high-throughput hospitality and retail environments, intermittent internet can halt checkout operations.
+   - Desktop and local SQLite/LAN architectures (such as **Store-POS**, **FloCafe**, **uniCenta**, or **Odoo with IoT Box**) ensure checkout registers keep scanning and printing receipts even during ISP downtime.
+
+3. **🔄 ERP Unification vs. Standalone Simplicity:**
+   - If your enterprise demands automated ledger journal entries, batch serial tracking, and warehouse reorder points, adopting **Odoo POS** or **ERPNext POS** eliminates costly integration middleware.
+   - For single-counter grocery stores or popup stalls, lightweight engines like **Open Source Point of Sale (OSPOS)** run comfortably on budget VPS environments with negligible maintenance.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Point of Sale tool that should be listed here, please open a pull request with:
+Contributions, software additions, and corrections are warmly welcomed! 
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem **splits** between **lightweight standalone POS** (OSPOS for quick deployment [citation:14]), **ERP-integrated POS** (Odoo and ERPNext for deep inventory/accounting integration [citation:11][citation:14]), **mature desktop POS** (uniCenta with 16-year track record [citation:11]), and **restaurant-specific systems** (Floreant, FloCafe, Agora [citation:2][citation:9][citation:11]). The right choice depends on whether you need ERP integration, offline resilience, or restaurant-specific workflows—and whether you have the technical resources to self-host and maintain the system [citation:8].
+1. 🍴 Fork the repository.
+2. 🌿 Create your feature branch (`git checkout -b feature/add-pos-tool`).
+3. ✍️ Add the POS tool with verified GitHub stars, technology stack, license, and brief description.
+4. 🚀 Open a Pull Request detailing the software's unique merits.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This compilation is licensed under the [Creative Commons Zero v1.0 Universal (CC0 1.0)](http://creativecommons.org/publicdomain/zero/1.0/) Public Domain Dedication. Listed platform trademarks, brand names, and software repositories belong to their respective copyright holders.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+<p align="center">
+  ⭐ <b>Star this repository if you find it helpful for your business or tech stack!</b> ⭐
+</p>
